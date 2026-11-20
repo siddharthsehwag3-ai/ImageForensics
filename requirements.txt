@@ -1,0 +1,13 @@
+﻿
+Set-Location "$HOME\ImageForensics"
+
+@'
+streamlit>=1.40,<2
+numpy
+pandas
+Pillow
+opencv-python-headless
+matplotlib
+'@ | Set-Content -Encoding utf8 requirements.txt
+
+pip install -r requirements.txt
