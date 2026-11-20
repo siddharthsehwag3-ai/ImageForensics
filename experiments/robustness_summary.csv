@@ -1,0 +1,7 @@
+condition,precision,recall,f1_score,iou,pixel_accuracy
+JPEG quality 50,0.99192,0.99328,0.99251,0.98524,0.99944
+JPEG quality 75,0.99464,0.99347,0.99397,0.98812,0.99957
+JPEG quality 95,0.99701,0.99339,0.99512,0.9904,0.99967
+Original PNG,1.0,0.9935,0.99668,0.9935,0.9998
+Resize and restore 50%,0.99179,0.99318,0.99238,0.98501,0.99944
+Resize and restore 75%,0.99501,0.99331,0.99407,0.98834,0.99959

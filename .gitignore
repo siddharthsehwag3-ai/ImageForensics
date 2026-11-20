@@ -1,0 +1,24 @@
+﻿
+Set-Location "$HOME\ImageForensics"
+
+@'
+.venv/
+__pycache__/
+*.pyc
+.streamlit/secrets.toml
+
+# Keep downloaded source photographs local until their licences are checked.
+dataset/
+
+# Keep generated image folders local; publish only the result tables.
+experiments/*
+!experiments/*.csv
+
+# Backups
+app_previous_backup.py
+app_backup_before_design_fix.py
+
+# Local operating system files
+.DS_Store
+Thumbs.db
+'@ | Set-Content -Encoding utf8 .gitignore
